@@ -225,6 +225,12 @@ form input[type=submit]:hover {
 	margin-right: .5%;
 }
 
+.img-groove-reuniao {
+	width: 23%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
 #img1 {
 	background-image: url('../img/galeria1.jpg');
 	margin-left: 0;
@@ -256,4 +262,20 @@ form input[type=submit]:hover {
 
 #img8 {
 	background-image: url('../img/diana.jpg');
+}
+
+#img9 {
+	background-image: url('../img/moda1.jpg');
+}
+
+#img10 {
+	background-image: url('../img/moda2.jpg');
+}
+
+#img11 {
+	background-image: url('../img/moda3.jpg');
+}
+
+#img12 {
+	background-image: url('../img/moda4.jpg');
 }

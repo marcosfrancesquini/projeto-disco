@@ -1,0 +1,259 @@
+html {
+	font-family: 'Orbitron', 'Open Sans', sans-serif;
+	color: #e2e2e2;
+	background: radial-gradient(circle at 20% 20%, #7c2cff 0, #ff4c98 40%, #110f2a 100%);
+}
+
+a {
+	transition: .5s;
+}
+
+strong {
+	font-weight: bold;
+	color: #ffe817;
+}
+
+header {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background: linear-gradient(135deg, #2d0057 0, #f5008b 60%, #ffea00 100%);
+	padding-top: 40px;
+	box-shadow: 0 0 40px #f5008b55;
+}
+
+nav {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+.logo-groove {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0 0 10px #ffe81788);
+}
+
+#vibe-disco {
+	padding-left: 0px;
+}
+
+header h1 {
+	color: #ffe817;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: 'Orbitron', 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+	text-shadow: 0 0 15px #f5008b88, 0 0 5px #fff;
+}
+
+header a {
+	color: #fff7f7;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Orbitron', 'Open Sans', sans-serif;
+	text-shadow: 0 0 8px #f5008b77;
+}
+
+header a:hover {
+	color: #ffe817;
+	text-shadow: 0 0 10px #ffe817bb, 0 0 2px #f5008b77;
+	letter-spacing: 1.5px;
+}
+
+header li {
+	padding: 20px;
+}
+
+.vibe-content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+.vibe-content h1,
+.vibe-content h2 {
+	color: #ffe817;
+	margin-bottom: 30px;
+	font-family: 'Orbitron', 'Open Sans', sans-serif;
+	text-shadow: 0 0 10px #f5008b77;
+}
+
+.vibe-content h1 {
+	font-size: 48px;
+}
+
+.vibe-content h2 {
+	font-size: 35px;
+}
+
+section {
+	padding-left: 50px;
+}
+
+#pista-boasvindas {
+	padding-left: 0;
+}
+
+.boasvindas-content {
+	padding-left: 50px;
+}
+
+#pista-boasvindas .groove-banner {
+	height: 500px;
+	background-image: url('../img/banner2.jpg');
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 80px #ffe81733, 0 0 10px #f5008b33;
+	border-radius: 20px 80px 20px 80px;
+}
+
+#pista-boasvindas h1 {
+	margin-top: 70px;
+}
+
+#pista-boasvindas::after,
+#pista-sobre::after {
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.minibanner-groove {
+	width: 300px;
+	height: 400px;
+	background-image: url('../img/banner3.jpg');
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-radius: 30px 100px 30px 100px;
+	box-shadow: 0 0 40px #ffe81755, 0 0 10px #f5008b55;
+}
+
+.desc-groove {
+	position: absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+.desc-groove p {
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+	color: #fff7f7;
+	text-shadow: 0 0 6px #2d0057cc;
+}
+
+.boasvindas-btn,
+form input[type=submit] {
+	background: linear-gradient(90deg, #ff4c98 0, #ffe817 100%);
+	color: #2d0057;
+	text-decoration: none;
+	padding: 20px 40px;
+	transition: .5s;
+	display: block;
+	width: 120px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+	font-family: 'Orbitron', 'Open Sans', sans-serif;
+	font-weight: bold;
+	border-radius: 30px;
+	box-shadow: 0 0 12px #f5008b77;
+}
+
+.boasvindas-btn:hover,
+form input[type=submit]:hover {
+	background: linear-gradient(90deg, #ffe817 0, #f5008b 100%);
+	color: #fff;
+	box-shadow: 0 0 20px #ffe817aa, 0 0 10px #f5008b99;
+}
+
+#pista-sobre .minibanner-groove {
+	float: right;
+	margin-right: 50px;
+	background-image: url('../img/banner4.jpg');
+}
+
+#pista-sobre .desc-groove {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+}
+
+.pista-galeria {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+	border-radius: 24px 60px 24px 60px;
+	box-shadow: 0 0 24px #ff4c98bb, 0 0 8px #ffe81799;
+	transition: transform 0.2s;
+}
+
+.pista-galeria:hover {
+	transform: scale(1.05) rotate(-2deg);
+	box-shadow: 0 0 44px #ffe817ee, 0 0 16px #f5008bee;
+}
+
+#pista-atividades,
+#pista-fas,
+#pista-reuniao {
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+.img-groove-moves {
+	width: 18.8%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+.img-groove-fas {
+	width: 32%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img1 {
+	background-image: url('../img/galeria1.jpg');
+	margin-left: 0;
+}
+
+#img2 {
+	background-image: url('../img/galeria2.jpg');
+}
+
+#img3 {
+	background-image: url('../img/galeria3.jpg');
+}
+
+#img4 {
+	background-image: url('../img/galeria4.jpg');
+}
+
+#img5 {
+	background-image: url('../img/galeria5.jpg');
+}
+
+#img6 {
+	background-image: url('../img/bee-gees.jpg');
+}
+
+#img7 {
+	background-image: url('../img/donna-summer.jpg');
+}
+
+#img8 {
+	background-image: url('../img/diana.jpg');
+}

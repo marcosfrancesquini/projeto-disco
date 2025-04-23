@@ -373,3 +373,44 @@ footer p {
 	margin-right: auto;
 
 }
+
+
+/*Audio*/
+
+audio::-webkit-media-controls-panel {
+    background-color: #2d0057; 
+    /* border-radius: 10px; */	
+    box-shadow: 0 0 10px #f5008b55; 
+}
+
+
+audio::-webkit-media-controls-play-button {
+    background-color: #f5008b; 
+    border-radius: 50%; 
+    transition: background-color .5s, box-shadow .5s; 
+}
+
+
+audio::-webkit-media-controls-mute-button {
+    background-color: #ffea00; 
+    border-radius: 50%; 
+    transition: background-color .5s, box-shadow .5s; 
+}
+
+/* Efeito hover nos botões de controle de áudio */
+audio::-webkit-media-controls-play-button:hover,
+audio::-webkit-media-controls-mute-button:hover {
+    background-color: #ffe817; /*coloquei pro botao do play e do mute, mesmca coisa que no site. Segredo e o seletor
+    /* box-shadow: 0 0 10px #ffe817bb, 0 0 5px #f5008b77; */
+}
+
+/* https://gist.github.com/Realetive/43c970b72a70badbd2a3
+https://www.syncfusion.com/forums/181319/how-can-we-change-the-ui-of-audio-file
+
+Sombras para site e para audio/player
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow
+
+dicas para arredondar melhor e com mais controle
+https://www.devmedia.com.br/bordas-arredondadas-css3-estilizando-bordas/37210
+
+*/
